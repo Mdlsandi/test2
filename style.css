@@ -1,0 +1,235 @@
+
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+#navbar{
+  overflow: hidden;
+  background-color: grey; /* fix this background-color its not showing*/
+  padding: 25px 0px;
+  position:relative;
+  width: 100%;
+  top: 5%;
+
+}
+
+#navbar a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+
+}
+
+#navbar #logo{
+  font-size: 35px;
+  font-weight: bold;
+  border-radius: 2px solid black;
+  left-margin: 20px;
+}
+
+#navbar a:hover{
+  background-color: black;
+  color: white;
+}
+
+#navbar #ss a:hover{
+  background-color: grey;
+}
+
+#navbar a.active{
+  background-color: black;
+  color: white;
+
+}
+
+#navbar-right{
+  float: right;
+  margin-right: 25px;
+}
+
+.header{
+  padding: 150px 100px 20px 150px;
+  text-align: center;
+}
+.header h1{
+  font-size: 40px;
+}
+
+.row{
+  display: flex;
+  padding-bottom: 56px;
+  border: solid black;
+
+
+}
+.side{
+  background-color: #f1f1f1;
+  padding-left:20px;
+
+
+}
+.paragraph{
+  padding: 7px 800px 7px 10px;
+}
+
+.df h1{
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 500px;
+  border: solid green;
+}
+
+.vertical{
+  border-left: 2px solid black;
+  height: 680px;
+  position: absolute;
+  left: 37%;
+}
+
+.fakeimg img{
+    border-radius: 50%;
+}
+
+.vertical h1{
+  padding-left: 280px;
+  padding-top: 10%;
+  }
+
+.vertical p{
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 2.0;
+
+}
+
+.sign img{
+  padding-left: 20px;
+}
+
+.header_b h1{
+  padding: 150px 100px 20px 150px;
+  text-align: center;
+  font-size: 40px;
+}
+.header_b p{
+  padding: 15px 100px 20px 150px;
+  text-align: center;
+  line-height: 2.0;
+}
+
+.header_c h1{
+  padding: 120px 100px 20px 160px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.header_d h1{
+  padding: 150px 100px 20px 170px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.slider{
+  position: relative;
+  width: 60%;
+  overflow: hidden;
+}
+
+
+.header_c .slider .images img{
+  width: 360px;
+  height: 240px;
+  position:relative;
+  padding-left: 150px;
+
+}
+.b1{
+  border: 2px solid red;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 250px 1fr;
+
+
+}
+
+
+.grid-item-1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+
+}
+
+
+.grid-item-2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+
+.grid-item-2 img{
+  box-sizing: border-box;
+  height: 550px;
+  width: auto;
+  padding:10px;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 74px;
+  left: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
